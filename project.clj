@@ -6,4 +6,4 @@
   :dependencies [[org.clojure/clojure "1.6.0"]
                  [http-kit "2.1.18"]
                  [cheshire "5.4.0"]
-                 [environ "0.5.0"]])
+                 [environ-plus "0.1.6"]])

@@ -1,7 +1,7 @@
 (ns clj-pingpp.http
   (:require [cheshire.core :refer [parse-string]]
             [org.httpkit.client :as client]
-            [environ.core :refer [env]]))
+            [environ-plus.core :refer [env]]))
 
 (def ^:dynamic url "https://api.pingxx.com/v1/")
 (def ^:dynamic *token* nil)
