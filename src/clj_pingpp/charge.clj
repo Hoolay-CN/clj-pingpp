@@ -32,7 +32,7 @@
 (defn get-refund
   "Get refund information."
   [charge-id refund-id]
-  (h/get-req (format "charges/%s/refunds/%s" charge-id refund-id)))
+  (h/get-req (format "charges/%s/refunds/%s" charge-id refund-id) nil))
 
 (defn get-refunds
   "Get all refunds."
